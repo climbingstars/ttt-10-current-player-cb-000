@@ -9,6 +9,7 @@ def turn_count(board)
 end
 
 def current_player(board)
+  even_odd = turn_count(board)
   if move == 15 % 2
     return "O"
   else move == 4 % 2
