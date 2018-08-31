@@ -3,7 +3,8 @@
 def turn_count(board)
   counter = 1
   board.each do |move|
-    board += 1
+
+    counter += 1
   end
 end
 
