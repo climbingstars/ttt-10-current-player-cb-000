@@ -12,7 +12,7 @@ def current_player(board)
   even_odd = turn_count(board)
   if even_odd % 2 = 1
     return "O"
-  else move == 4 % 2
+  else even_odd % 2 = 0
     return "X"
   end
 end
